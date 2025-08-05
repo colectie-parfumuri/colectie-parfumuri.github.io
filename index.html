@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colectia Mea de Parfumuri</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Colectia Mea de Parfumuri</h1>
+    </header>
+    <main>
+        <section id="parfumuri">
+            <!-- Aici vor fi afișate parfumurile -->
+        </section>
+        <section id="adauga-parfum">
+            <h2>Adaugă un parfum nou</h2>
+            <form id="form-parfum">
+                <label for="nume-parfum">Nume:</label>
+                <input type="text" id="nume-parfum" name="nume-parfum" required>
+                <label for="descriere-parfum">Descriere:</label>
+                <textarea id="descriere-parfum" name="descriere-parfum" required></textarea>
+                <label for="pret-parfum">Preț:</label>
+                <input type="number" id="pret-parfum" name="pret-parfum" required>
+                <button type="submit">Adaugă parfum</button>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
